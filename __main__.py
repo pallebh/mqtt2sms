@@ -9,7 +9,7 @@ Options:
     -i IP --ip IP  Hostname or ip address of the mqtt broker [default: 127.0.0.1]     
     -p PORT --port PORT  Port of the mqtt broker [default: 1883]
     -s SUBSCRITIONS --subscribtions SUBSCRIBTIONS  Subscribtions to messages from the mqtt broker
-    -f --logfile LOGFILEPATH  Path of the logfile used by the program [default: /var/log/mqtt2sms.log]
+    -f --logfile LOGFILEPATH path of the logfile used by the program [default: /var/log/mqtt2sms.log]
 """
 
 import mqttclient
